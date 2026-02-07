@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+
+}
+
+.nav{
+    background-image: url(nav_back.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.nav1 p{
+    display: inline-flex;
+    color: azure;
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+
+}
+
+.nav1 p:hover{
+    color: black;
+}
+
+.nav1{
+    text-align: center;
+}
+
+.nav2{
+    text-align: center;
+    color: azure;
+    margin-top: 200px;
+}
+
+.a1{
+    font-size: 2rem;
+}
+
+.a2{
+    margin-top: 20px;
+    font-size: 6rem;
+}
+
+.white{
+    z-index: 10;
+    margin-top: -100px;
+    height: 400px;
+    width: 60%;
+    background-color: rgb(253, 252, 252);
+    text-align: center;
+    margin-left: 350px;
+    
+}
+
+.b1{
+    padding-top: 90px;
+    color: rgb(162, 161, 161);
+    font-size: 2.5rem;
+}
+
+.b3{
+    color: rgb(220, 90, 2);
+    font-weight: 500;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+
+.b2{
+    color: rgb(162, 161, 161);
+    padding: 50px;
+    font-size: 1.5rem;
+
+}
+
+.row2{
+    margin-left: 350px;
+    display: flex;
+}
+
+.green{
+    height: 350px;
+    background-color: rgb(136, 186, 136);
+    width: 25%;
+}
+
+.c2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: azure;
+    margin-top: 100px;
+}
+
+.c1{
+    color: rgb(214, 127, 68);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 40px;
+
+}
+
+.green2{
+    height: 350px;
+    background-image: url(green.avif);
+    width: 795px;
+    background-size: contain;
+    
+}
+
+.row3{
+    margin-left: 350px;
+    display: flex;
+}
+
+.rowwhite{
+    height: 350px;
+    background-image: url(white.avif);
+    width: 25%;
+    background-size: contain;
+}
+
+
+.rowwhite2{
+    height: 350px;
+    background-color: white;
+    width: 795px;
+    
+}
+
+.rowwhite2 p{
+    font-size: 1.5rem;
+    color: rgb(162, 161, 161);
+    text-align: center;
+    padding-top: 150px;
+}
+
+.row4{
+    margin-left: 350px;
+    display: flex;
+}
+
+.l1{
+    height: 350px;
+    background-image: url(row3.avif);
+    width: 795px;
+    
+}
+
+.l2{
+    height: 350px;
+    background-color: rgb(136, 186, 136);
+    width: 25%;
+}
+
+.l2 p{
+    font-size: 2.5rem;
+    color: azure;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.last{
+    height: 350px;
+    width: 60%;
+    background-color: rgb(253, 247, 247);
+    text-align: center;
+    margin-left: 350px;
+}
+
+.last p{
+    padding-top: 90px;
+    color: rgb(162, 161, 161);
+    font-size: 1.5rem;
+    
+}
+
+
+.footer-extra{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: rgb(120,120,120);
+    width: 60%;
+    height: fit-content;
+    margin-left: 400px;
+}
+
+.footer-box{
+    width: 30%;
+}
+
+.footer-title{
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.line{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: orange;
+    margin-bottom: 25px;
+}
+
+.footer-text{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.icons i{
+    font-size: 22px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.email-box{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.check{
+    display: flex;
+    gap: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.sub-btn{
+    width: 100%;
+    padding: 12px;
+    background: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-btn:hover{
+    background: #555;
+}
+
+
+
+
+.chat{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #6da8a3;
+    padding: 14px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.chat:hover{
+    border: 2px solid black;
+    
+}
+
+.chat p{
+    font-size: medium;
+    color: white;
+}
